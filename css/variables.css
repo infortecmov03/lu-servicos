@@ -1,0 +1,84 @@
+:root {
+    /* Cores Principais - Paleta Oficial */
+    --primary-blue: #3498DB;        /* Azul principal - profissionalismo */
+    --primary-green: #2ECC71;        /* Verde principal - frescura e limpeza */
+    --pure-white: #FFFFFF;           /* Branco - contraste e elegância */
+    
+    /* Variações para gradientes e efeitos */
+    --blue-light: #5DADE2;           /* Azul mais claro */
+    --blue-dark: #2980B9;             /* Azul mais escuro */
+    --green-light: #58D68D;           /* Verde mais claro */
+    --green-dark: #27AE60;             /* Verde mais escuro */
+    
+    /* Cores de Texto */
+    --text-dark: #2C3E50;             /* Texto principal */
+    --text-light: #7F8C8D;             /* Texto secundário */
+    --text-muted: #95A5A6;             /* Texto mais suave */
+    
+    /* Cores de Fundo */
+    --bg-light: #F8FAFC;               /* Fundo claro */
+    --bg-gray: #ECF0F1;                 /* Cinza claro */
+    --bg-dark: #1a1f25;                 /* Fundo escuro */
+    
+    /* Cores dos Serviços */
+    --canalizacao-color: var(--primary-blue);
+    --canalizacao-light: var(--blue-light);
+    --serralharia-color: #34495E;       /* Cinza escuro */
+    --serralharia-accent: #C5A572;       /* Bronze */
+    --limpeza-color: var(--primary-green);
+    --limpeza-light: var(--green-light);
+    
+    /* Cores de Feedback */
+    --success-color: var(--primary-green);
+    --warning-color: #F39C12;
+    --error-color: #E74C3C;
+    --info-color: var(--primary-blue);
+    
+    /* Gradientes */
+    --gradient-blue: linear-gradient(135deg, var(--primary-blue), var(--blue-light));
+    --gradient-green: linear-gradient(135deg, var(--primary-green), var(--green-light));
+    --gradient-mixed: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+    
+    /* Sombras */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-md: 0 5px 15px rgba(0,0,0,0.08);
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.1);
+    --shadow-xl: 0 20px 40px rgba(0,0,0,0.15);
+    --shadow-blue: 0 10px 30px rgba(52,152,219,0.2);
+    --shadow-green: 0 10px 30px rgba(46,204,113,0.2);
+    
+    /* Bordas */
+    --border-radius-sm: 8px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 20px;
+    --border-radius-xl: 30px;
+    --border-radius-circle: 50%;
+    
+    /* Transições */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* Espaçamentos */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+    --spacing-xl: 50px;
+    
+    /* Fontes */
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: 'Lato', sans-serif;
+    
+    /* Z-index */
+    --z-negative: -1;
+    --z-normal: 1;
+    --z-dropdown: 10;
+    --z-sticky: 100;
+    --z-fixed: 1000;
+    --z-modal: 2000;
+    --z-popover: 3000;
+    --z-tooltip: 4000;
+    --z-toast: 5000;
+}
